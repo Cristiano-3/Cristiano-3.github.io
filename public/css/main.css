@@ -1932,7 +1932,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #83d25b;
+  background: #32b3ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2772,7 +2772,7 @@ hr {
   display: block;
   overflow: hidden;
   margin: 0 auto;
-  width: 0%;
+  width: 75%;
 }
 @media (max-width: 767px) {
   .logo-line-before,
