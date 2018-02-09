@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-09T02:17:40.022Z</updated>
+  <updated>2018-02-09T02:30:16.100Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/02/09/opencv_basics/"/>
     <id>http://yoursite.com/2018/02/09/opencv_basics/</id>
     <published>2018-02-09T02:05:51.000Z</published>
-    <updated>2018-02-09T02:17:40.022Z</updated>
+    <updated>2018-02-09T02:30:16.100Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="图像读取、保存、显示"><a href="#图像读取、保存、显示" class="headerlink" title="图像读取、保存、显示"></a>图像读取、保存、显示</h1><p>#</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="图像读取、保存、显示"><a href="#图像读取、保存、显示" class="headerlink" title="图像读取、保存、显示"></a>图像读取、保存、显示</h2><h2 id="Mat矩阵的选取、加减乘除"><a href="#Mat矩阵的选取、加减乘除" class="headerlink" title="Mat矩阵的选取、加减乘除"></a>Mat矩阵的选取、加减乘除</h2><h2 id="Mat的统计API"><a href="#Mat的统计API" class="headerlink" title="Mat的统计API"></a>Mat的统计API</h2><p>## </p>]]></content>
     
     <summary type="html">
     
