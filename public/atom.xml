@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-09T02:30:16.100Z</updated>
+  <updated>2018-02-11T14:00:12.104Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/02/09/opencv_basics/"/>
     <id>http://yoursite.com/2018/02/09/opencv_basics/</id>
     <published>2018-02-09T02:05:51.000Z</published>
-    <updated>2018-02-09T02:30:16.100Z</updated>
+    <updated>2018-02-11T14:00:12.104Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="图像读取、保存、显示"><a href="#图像读取、保存、显示" class="headerlink" title="图像读取、保存、显示"></a>图像读取、保存、显示</h2><h2 id="Mat矩阵的选取、加减乘除"><a href="#Mat矩阵的选取、加减乘除" class="headerlink" title="Mat矩阵的选取、加减乘除"></a>Mat矩阵的选取、加减乘除</h2><h2 id="Mat的统计API"><a href="#Mat的统计API" class="headerlink" title="Mat的统计API"></a>Mat的统计API</h2><p>## </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="图像读取、保存、显示"><a href="#图像读取、保存、显示" class="headerlink" title="图像读取、保存、显示"></a>图像读取、保存、显示</h2><h3 id="1-读取"><a href="#1-读取" class="headerlink" title="1) 读取"></a>1) 读取</h3><p>using namespace cv;</p><p>Mat img = imread(“/path/to/image/img.jpg”, CV_LOAD_IMAGE_UNCHANGED);</p><p>CV_LOAD_IMAGE_UNCHANGED = -1 // IMREAD_UNCHANGED</p><p>CV_LOAD_IMAGE_GRAYSCALE = 0  // IMREAD_GRAYSCALE</p><p>CV_LOAD_IMAGE_COLOR = 1      // IMREAD_COLOR</p><p>CV_LOAD_IMAGE_ANYDEPTH = 2   // IMREAD_ANYDEPTH</p><p>CV_LOAD_IMAGE_ANYCOLOR = 4   // IMREAD_ANYCOLOR</p><h3 id="2-保存"><a href="#2-保存" class="headerlink" title="2) 保存"></a>2) 保存</h3><p>bool imwrite( const string&amp; filename, InputArray img, const vector<int>&amp; params=vector<int>() );</int></int></p><p>参数分别是：含后缀图像名，图像矩阵，图像保存参数如压缩等级等。</p><h3 id="3-显示"><a href="#3-显示" class="headerlink" title="3) 显示"></a>3) 显示</h3><p>void namedWindow( const string&amp; winname, int flags=WINDOW_AUTOSIZE );</p><p>命名窗口，其中参数WINDOW_AUTOSIZE表示自适应成图像大小，且不可手动调整大小。WINDOW_NORMAL则可以自由调整窗口大小。</p><p>void moveWindow(const String &amp;winname, int x, int y); // 水平, 竖直方向</p><p>移动指定窗口的位置。</p><p>void imshow(const string&amp; winname, InputArray mat);</p><p>显示图像mat到特定窗口。</p><p>destroyWindow(); // destroyAllWindows();</p><p>关闭窗口释放内存。</p><h2 id="Mat矩阵的选取、加减乘除"><a href="#Mat矩阵的选取、加减乘除" class="headerlink" title="Mat矩阵的选取、加减乘除"></a>Mat矩阵的选取、加减乘除</h2><h2 id="Mat的统计API"><a href="#Mat的统计API" class="headerlink" title="Mat的统计API"></a>Mat的统计API</h2><p>##</p>]]></content>
     
     <summary type="html">
     
@@ -43,7 +43,7 @@
     <link href="http://yoursite.com/2018/01/28/hello-world/"/>
     <id>http://yoursite.com/2018/01/28/hello-world/</id>
     <published>2018-01-28T11:38:43.000Z</published>
-    <updated>2018-02-08T13:15:22.955Z</updated>
+    <updated>2018-02-11T13:16:20.709Z</updated>
     
     <content type="html"><![CDATA[<p>你好！Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
     
