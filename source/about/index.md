@@ -5,6 +5,7 @@ categories: "about" #文章分類目錄 可以省略
 tags: #文章標籤 可以省略
      - about
 description: #你對本頁的描述 可以省略
+comments: false
 ---
 
 暂无~, (*^__^*) 嘻嘻……
