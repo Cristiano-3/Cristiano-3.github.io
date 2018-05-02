@@ -6,7 +6,7 @@ tags:
     - OpenCV 
     - cv2
     
-description: 基于SURF图像匹配查找
+description: 基于SURF匹配, 查找模板图像
 ---
 
 利用SURF特征点匹配，在给定图像中找出和模板图像匹配的区域。
